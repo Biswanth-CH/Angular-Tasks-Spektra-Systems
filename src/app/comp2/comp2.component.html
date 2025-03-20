@@ -1,0 +1,22 @@
+  <div class="card shadow-lg" style="margin-left: 90px;" >
+    <div class="card-header">
+      <h2 class="card-title">Question 2</h2>
+    </div>
+    <div class="card-body">
+      <div class="mb-4">
+        <label for="inputText" class="form-label">Enter the Text :  </label>
+        <input 
+          [(ngModel)]="inputText" 
+          id="inputText" 
+          class="form-control" 
+          placeholder="Type something..." 
+        />
+      </div>
+      <button 
+        [disabled]="!inputText" 
+        class="btn btn-primary "
+      >
+        Submit
+      </button>
+    </div>
+  </div>

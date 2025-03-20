@@ -1,0 +1,22 @@
+/* Container for all rows */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between rows */
+  padding: 20px;
+}
+
+/* Each row */
+.row {
+  display: flex;
+  gap: 20px; /* Space between components in a row */
+}
+
+/* Style for each component */
+.row > * {
+  flex: 1; /* Each component takes equal space */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
